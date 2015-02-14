@@ -1,6 +1,6 @@
 var app = angular.module('quoteBook');
 
-app.controller('mainController', function($scope, dataService, $cookieStore) {
+app.controller('mainController', function($scope, dataService) {
 
     $scope.addName = '';
     $scope.addQuote = '';
